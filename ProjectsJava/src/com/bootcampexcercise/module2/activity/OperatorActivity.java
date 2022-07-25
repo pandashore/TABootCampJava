@@ -1,5 +1,13 @@
 package com.bootcampexcercise.module2.activity;
 
+/**
+ *
+ *     Perform the following:
+ *     Find the sum of the given integers
+ *     Print the result
+ *
+ */
+
 public class OperatorActivity {
     public static void main(String []args) {
         int j, m;
