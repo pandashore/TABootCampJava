@@ -9,7 +9,7 @@ public class Calculator {
 
         System.out.println("Subtraction - " + subtract(x, y));
         System.out.println("Divide - " + divide(x, y));
-        
+
     }
 
     private static int subtract(int x, int y) {
