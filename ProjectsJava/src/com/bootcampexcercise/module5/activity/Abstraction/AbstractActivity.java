@@ -21,10 +21,11 @@ public class AbstractActivity {
         Circle circle = new Circle();
         circle.setColor("Green");
         System.out.println(circle.getColor());
-        circle.setRadius(9);
-        System.out.println(circle.calculatePerimeter());
-        System.out.println(circle.calculateArea());
         // Give area of circle
         // Print perimeter of circle
+        circle.setRadius(9);
+        System.out.println(circle.calculateArea());
+        System.out.println(circle.calculatePerimeter());
+
     }
 }
