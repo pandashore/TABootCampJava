@@ -11,7 +11,6 @@ public class CustomExceptionActivityTest {
     //Call this method with different names to test it
     CustomExceptionActivityTest usr = new CustomExceptionActivityTest();
         usr.validateUser("Tom");
-        System.out.println("---------------------------");
         usr.validateUser("Jurga");
 
 }
