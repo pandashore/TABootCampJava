@@ -3,6 +3,7 @@ package com.bootcampexcercise.Module8.Activity;
 import com.bootcampexcercise.Module8.Sample.ListSample;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class ListActivity {
@@ -15,7 +16,7 @@ public class ListActivity {
         System.out.println("1st ele of List " + list.get(0));
 
         list.add(0, "b");
-        System.out.println("5th ele of List " + list.get(0));
+        System.out.println("2nd ele of List " + list.get(0));
 
         int size = list.size();
 
@@ -23,7 +24,6 @@ public class ListActivity {
         System.out.println("Hello " + element.toString());
         element = list.get(0);
 
-        element = list.get(0);
 
         boolean booleanVar = list.remove("B");
         booleanVar = list.remove ("B"); // true
