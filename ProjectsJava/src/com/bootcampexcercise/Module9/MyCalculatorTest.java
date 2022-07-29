@@ -1,9 +1,6 @@
 package com.bootcampexcercise.Module9;
 
-// Complete Code
-// To Add jar file of junit
-// 1. Download jar from https://jar-download.com/artifacts/junit/junit/4.12/source-code
-// 2. Click File -> Project Structure -> Go to dependencies -> add download jar files
+
 import junit.framework.TestCase;
 
 public class MyCalculatorTest extends TestCase {
