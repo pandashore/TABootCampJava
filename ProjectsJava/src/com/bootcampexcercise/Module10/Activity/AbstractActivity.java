@@ -42,7 +42,7 @@ public class AbstractActivity {
         System.out.println("Employee Age          : " + eP.getAge());
         System.out.println("Employee Salary       : " + e.getSalary());
         System.out.println("Employee Title        : " + e.getJobTitle());
-        System.out.println("Employee Company      : " + e.getCompany();
+        System.out.println("Employee Company      : " + e.getCompany());
 
     }
 }

@@ -1,5 +1,7 @@
 package com.bootcampexcercise.Module10.Activity;
 
+import com.bootcampexcercise.Module10.Activity.Person;
+
 public class Students extends Person {
 
     private String schoolName;

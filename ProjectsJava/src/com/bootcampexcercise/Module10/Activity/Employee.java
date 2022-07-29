@@ -1,6 +1,6 @@
 package com.bootcampexcercise.Module10.Activity;
 
-import com.bootcampexcercise.module5.activity.Person_I;
+import com.bootcampexcercise.Module10.Activity.Person;
 
 public class Employee extends Person {
 
