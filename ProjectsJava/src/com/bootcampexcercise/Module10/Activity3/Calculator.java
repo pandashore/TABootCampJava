@@ -1,4 +1,4 @@
-package com.bootcampexcercise.Module10.Activity;
+package com.bootcampexcercise.Module10.Activity3;
 
 import com.bootcampexcercise.Module7.Activity.ExceptionSequenceActivity;
 

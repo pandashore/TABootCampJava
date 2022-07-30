@@ -1,7 +1,7 @@
-package com.bootcampexcercise.Module10.Activity;
+package com.bootcampexcercise.Module10.Activity3;
 
 
-import com.bootcampexcercise.Module10.Activity.Calculator;
+import com.bootcampexcercise.Module10.Activity3.Calculator;
 import junit.framework.TestCase;
 
 public class CalculatorTest extends TestCase {
