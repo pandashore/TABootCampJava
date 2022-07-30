@@ -1,9 +1,14 @@
-package com.bootcampexcercise.Module10.Activity;
+package com.bootcampexcercise.Module10.Activity1;
 
-public class Person {
+public abstract class Person {
 
     private String name;
     private int age;
+
+    public Person() {
+        this.name = "name";
+        this.age = 0;
+    }
 
     public String getName() {
         return name;
@@ -19,7 +24,6 @@ public class Person {
         this.age = age;
     }
 
-    public void introduce() {
-        System.out.println("Hello");
-    }
+    public abstract void introduce();
+
 }

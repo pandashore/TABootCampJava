@@ -1,10 +1,15 @@
-package com.bootcampexcercise.Module10.Activity;
+package com.bootcampexcercise.Module10.Activity2;
 
-import com.bootcampexcercise.Module10.Activity.Person;
+import com.bootcampexcercise.Module10.Activity1.Person;
 
 public class Students extends Person {
 
     private String schoolName;
+
+    public Students(){
+        this.schoolName = "schoolName";
+    }
+
 
     public String getschoolName() {
         return schoolName;
@@ -16,8 +21,8 @@ public class Students extends Person {
 
     @Override
     public void introduce() {
-        super.introduce();
-        System.out.println("I study in Colombia University");
+        System.out.println("I study in university " + getschoolName());
+
     }
 
 }
