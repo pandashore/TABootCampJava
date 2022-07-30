@@ -1,5 +1,8 @@
-package com.bootcampexcercise.Module10.Activity;
+package com.bootcampexcercise.Module10.Activity6;
 
+
+import com.bootcampexcercise.Module10.Activity6.Bike;
+import com.bootcampexcercise.Module10.Activity6.Car;
 
 public class InterfaceActivityClass {
 
