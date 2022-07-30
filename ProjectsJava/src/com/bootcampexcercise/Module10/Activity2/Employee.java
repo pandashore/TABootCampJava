@@ -8,7 +8,7 @@ public class Employee extends Person {
     private String company;
     private String jobTitle;
 
-    public Employee() {
+    public Employee(String painter, int i, String superDuper) {
         this.salary = 0;
         this.company = "Company";
         this.jobTitle = "JobTitle";

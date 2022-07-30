@@ -7,28 +7,27 @@ public class EmployeeList {
     public static void main(String[] arg) {
 
         Employee eOne = new Employee("Painter", 3000, "SuperDuper");
-        Employee employeeTwo = new Employee("Nurse", 1500, "Hospitalia");
-       Employee employeeThree = new Employee("Butcher", 3000, "Landmarket");
-        Employee employeeFour = new Employee("Dancer", 2600, "Academy");
-        Employee employeeFive = new Employee("Veterinar", 1900, "VetTech");
+        Employee eTwo = new Employee("Nurse", 1500, "Hospitalia");
+        Employee eThree = new Employee("Butcher", 3000, "Landmarket");
+        Employee eFour = new Employee("Dancer", 2600, "Academy");
+        Employee eFive = new Employee("Veterinar", 1900, "VetTech");
 
-        List<Employee> employeeList = new ArrayList<>();
-        employeeList.add(eOne);
-        employeeList.add(employeeTwo);
-        employeeList.add(employeeThree);
-        employeeList.add(employeeFour);
-        employeeList.add(employeeFive);
+        List<Employee> EmployeeList = new ArrayList<>();
+        EmployeeList.add(eOne);
+        EmployeeList.add(eTwo);
+        EmployeeList.add(eThree);
+        EmployeeList.add(eFour);
+        EmployeeList.add(eFive);
 
-
-        double salary = 0;
-
-        for (Employee employee : employeeList) {
-            double loopSalary = employee.getSalary();
+        double salary = 2600;
+        for (Employee e : EmployeeList) {
+            double loopSalary = e.getSalary();
 
             if (loopSalary > salary) {
                 salary = loopSalary;
             }
         }
+
         System.out.println("The Employee whose salary is the highest is :" + salary);
 
     }

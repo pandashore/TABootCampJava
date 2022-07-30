@@ -4,7 +4,7 @@ public class AbstractActivity {
     public static void main(String[] args) {
 
 
-        Employee employee = new Employee();
+        Employee employee = new Employee("Painter", 3000, "SuperDuper");
         employee.setAge(28);
         employee.setName("TOM");
         employee.setSalary(2300);
